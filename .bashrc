@@ -84,6 +84,6 @@ if ! shopt -oq posix; then
 fi
 
 
-if [ -f ~/.bashrc_local ]; then
-    . ~/.bashrc_local
+if [ -f ~/.bashrc.local ]; then
+    . ~/.bashrc.local
 fi
